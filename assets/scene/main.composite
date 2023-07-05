@@ -1,0 +1,1247 @@
+{
+  "version": 1,
+  "components": [
+    {
+      "name": "composite::root",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "src": {
+            "type": "string",
+            "serializationType": "utf8-string"
+          },
+          "entities": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "src": {
+                  "type": "integer",
+                  "serializationType": "entity"
+                },
+                "dest": {
+                  "type": "integer",
+                  "serializationType": "entity"
+                }
+              },
+              "serializationType": "map"
+            },
+            "serializationType": "array"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {}
+    },
+    {
+      "name": "core::Transform",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "position": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "z": {
+                "type": "number"
+              }
+            }
+          },
+          "scale": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "z": {
+                "type": "number"
+              }
+            }
+          },
+          "rotation": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "z": {
+                "type": "number"
+              },
+              "w": {
+                "type": "number"
+              }
+            }
+          },
+          "parent": {
+            "type": "integer"
+          }
+        },
+        "serializationType": "transform"
+      },
+      "data": {
+        "513": {
+          "json": {
+            "position": {
+              "x": 64,
+              "y": 0,
+              "z": 64
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "parent": 0
+          }
+        },
+        "514": {
+          "json": {
+            "position": {
+              "x": 64,
+              "y": 0,
+              "z": 64
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 8,
+              "y": 1,
+              "z": 8
+            },
+            "parent": 0
+          }
+        },
+        "515": {
+          "json": {
+            "position": {
+              "x": 0,
+              "y": 2.1500000953674316,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "516": {
+          "json": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "517": {
+          "json": {
+            "position": {
+              "x": 28,
+              "y": 1.2200000286102295,
+              "z": 28
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "518": {
+          "json": {
+            "position": {
+              "x": 0,
+              "y": 1.1799999475479126,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "519": {
+          "json": {
+            "position": {
+              "x": -52,
+              "y": 0.20000000298023224,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.7071067690849304,
+              "z": 0,
+              "w": 0.7071067690849304
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "520": {
+          "json": {
+            "position": {
+              "x": -6.5,
+              "y": 1.2000000476837158,
+              "z": 6.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.9238795042037964,
+              "z": 0,
+              "w": 0.3826834261417389
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "521": {
+          "json": {
+            "position": {
+              "x": 11.600000381469727,
+              "y": 1.1799999475479126,
+              "z": 11.600000381469727
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.3826834261417389,
+              "z": 0,
+              "w": 0.9238795042037964
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "522": {
+          "json": {
+            "position": {
+              "x": 28,
+              "y": 1.2200000286102295,
+              "z": -28
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "523": {
+          "json": {
+            "position": {
+              "x": -28,
+              "y": 1.2200000286102295,
+              "z": -28
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "524": {
+          "json": {
+            "position": {
+              "x": -28,
+              "y": 1.2200000286102295,
+              "z": 28
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "525": {
+          "json": {
+            "position": {
+              "x": 6.5,
+              "y": 1.2000000476837158,
+              "z": 6.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.3826834261417389,
+              "z": 0,
+              "w": 0.9238795042037964
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "526": {
+          "json": {
+            "position": {
+              "x": -6.5,
+              "y": 1.2000000476837158,
+              "z": -6.5
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.9537169337272644,
+              "z": 0,
+              "w": 0.30070579051971436
+            },
+            "parent": 513
+          }
+        },
+        "527": {
+          "json": {
+            "position": {
+              "x": 6.5,
+              "y": 1.2000000476837158,
+              "z": -6.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.3826834261417389,
+              "z": 0,
+              "w": 0.9238795042037964
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "528": {
+          "json": {
+            "position": {
+              "x": -11.600000381469727,
+              "y": 1.1799999475479126,
+              "z": 11.600000381469727
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.9238795042037964,
+              "z": 0,
+              "w": 0.3826834261417389
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "529": {
+          "json": {
+            "position": {
+              "x": 11.600000381469727,
+              "y": 1.1799999475479126,
+              "z": -11.600000381469727
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.9238795042037964,
+              "z": 0,
+              "w": 0.3826834261417389
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "530": {
+          "json": {
+            "position": {
+              "x": -11.600000381469727,
+              "y": 1.1799999475479126,
+              "z": -11.600000381469727
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.3826834261417389,
+              "z": 0,
+              "w": 0.9238795042037964
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "531": {
+          "json": {
+            "position": {
+              "x": 52,
+              "y": 0.20000000298023224,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.7071067690849304,
+              "z": 0,
+              "w": 0.7071067690849304
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "532": {
+          "json": {
+            "position": {
+              "x": 0,
+              "y": 0.20000000298023224,
+              "z": 52
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "533": {
+          "json": {
+            "position": {
+              "x": 0,
+              "y": 0.20000000298023224,
+              "z": -52
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 513
+          }
+        },
+        "534": {
+          "json": {
+            "position": {
+              "x": -14,
+              "y": 2.380000114440918,
+              "z": -14
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.7071067690849304,
+              "z": 0,
+              "w": 0.7071067690849304
+            },
+            "scale": {
+              "x": 0.800000011920929,
+              "y": 0.800000011920929,
+              "z": 0.800000011920929
+            },
+            "parent": 513
+          }
+        },
+        "535": {
+          "json": {
+            "position": {
+              "x": 14,
+              "y": 2.380000114440918,
+              "z": -14
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.9963656663894653,
+              "z": 0,
+              "w": 0.08517865091562271
+            },
+            "scale": {
+              "x": 0.800000011920929,
+              "y": 0.800000011920929,
+              "z": 0.800000011920929
+            },
+            "parent": 513
+          }
+        },
+        "536": {
+          "json": {
+            "position": {
+              "x": -14,
+              "y": 2.380000114440918,
+              "z": 14
+            },
+            "rotation": {
+              "x": 0,
+              "y": -0.3720458745956421,
+              "z": 0,
+              "w": 0.9282143712043762
+            },
+            "scale": {
+              "x": 0.800000011920929,
+              "y": 0.800000011920929,
+              "z": 0.800000011920929
+            },
+            "parent": 513
+          }
+        },
+        "537": {
+          "json": {
+            "position": {
+              "x": 14,
+              "y": 2.380000114440918,
+              "z": 14
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.5805230140686035,
+              "z": 0,
+              "w": 0.8142438530921936
+            },
+            "scale": {
+              "x": 0.7999999523162842,
+              "y": 0.800000011920929,
+              "z": 0.7999999523162842
+            },
+            "parent": 513
+          }
+        }
+      }
+    },
+    {
+      "name": "core::GltfContainer",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBGltfContainer"
+      },
+      "data": {
+        "513": {
+          "json": {
+            "src": "assets/store/structure.glb"
+          }
+        },
+        "514": {
+          "json": {
+            "src": "assets/store/baseGrass.glb"
+          }
+        },
+        "515": {
+          "json": {
+            "src": "assets/store/model.glb"
+          }
+        },
+        "516": {
+          "json": {
+            "src": "assets/store/vegetation.glb"
+          }
+        },
+        "517": {
+          "json": {
+            "src": "assets/store/Big_Fountain.glb"
+          }
+        },
+        "518": {
+          "json": {
+            "src": "assets/store/Display_Stand.glb"
+          }
+        },
+        "519": {
+          "json": {
+            "src": "assets/store/Portal.glb"
+          }
+        },
+        "520": {
+          "json": {
+            "src": "assets/store/Sofa.glb"
+          }
+        },
+        "521": {
+          "json": {
+            "src": "assets/store/Table.glb"
+          }
+        },
+        "522": {
+          "json": {
+            "src": "assets/store/Big_Fountain.glb"
+          }
+        },
+        "523": {
+          "json": {
+            "src": "assets/store/Big_Fountain.glb"
+          }
+        },
+        "524": {
+          "json": {
+            "src": "assets/store/Big_Fountain.glb"
+          }
+        },
+        "525": {
+          "json": {
+            "src": "assets/store/Sofa.glb"
+          }
+        },
+        "526": {
+          "json": {
+            "src": "assets/store/Sofa.glb"
+          }
+        },
+        "527": {
+          "json": {
+            "src": "assets/store/Sofa.glb"
+          }
+        },
+        "528": {
+          "json": {
+            "src": "assets/store/Table.glb"
+          }
+        },
+        "529": {
+          "json": {
+            "src": "assets/store/Table.glb"
+          }
+        },
+        "530": {
+          "json": {
+            "src": "assets/store/Table.glb"
+          }
+        },
+        "531": {
+          "json": {
+            "src": "assets/store/Portal.glb"
+          }
+        },
+        "532": {
+          "json": {
+            "src": "assets/store/Portal.glb"
+          }
+        },
+        "533": {
+          "json": {
+            "src": "assets/store/Portal.glb"
+          }
+        },
+        "534": {
+          "json": {
+            "src": "assets/store/model.glb"
+          }
+        },
+        "535": {
+          "json": {
+            "src": "assets/store/model.glb"
+          }
+        },
+        "536": {
+          "json": {
+            "src": "assets/store/model.glb"
+          }
+        },
+        "537": {
+          "json": {
+            "src": "assets/store/model.glb"
+          }
+        }
+      }
+    },
+    {
+      "name": "core-schema::Name",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "serializationType": "utf8-string"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "513": {
+          "json": {
+            "value": "structure.glb"
+          }
+        },
+        "514": {
+          "json": {
+            "value": "baseGrass.glb"
+          }
+        },
+        "515": {
+          "json": {
+            "value": "model.glb"
+          }
+        },
+        "516": {
+          "json": {
+            "value": "vegetation.glb"
+          }
+        },
+        "517": {
+          "json": {
+            "value": "Big_Fountain.glb"
+          }
+        },
+        "518": {
+          "json": {
+            "value": "Display_Stand.glb"
+          }
+        },
+        "519": {
+          "json": {
+            "value": "Portal.glb"
+          }
+        },
+        "520": {
+          "json": {
+            "value": "Sofa.glb"
+          }
+        },
+        "521": {
+          "json": {
+            "value": "Table.glb"
+          }
+        },
+        "522": {
+          "json": {
+            "value": "Big_Fountain.glb"
+          }
+        },
+        "523": {
+          "json": {
+            "value": "Big_Fountain.glb"
+          }
+        },
+        "524": {
+          "json": {
+            "value": "Big_Fountain.glb"
+          }
+        },
+        "525": {
+          "json": {
+            "value": "Sofa.glb"
+          }
+        },
+        "526": {
+          "json": {
+            "value": "Sofa.glb"
+          }
+        },
+        "527": {
+          "json": {
+            "value": "Sofa.glb"
+          }
+        },
+        "528": {
+          "json": {
+            "value": "Table.glb"
+          }
+        },
+        "529": {
+          "json": {
+            "value": "Table.glb"
+          }
+        },
+        "530": {
+          "json": {
+            "value": "Table.glb"
+          }
+        },
+        "531": {
+          "json": {
+            "value": "Portal.glb"
+          }
+        },
+        "532": {
+          "json": {
+            "value": "Portal.glb"
+          }
+        },
+        "533": {
+          "json": {
+            "value": "Portal.glb"
+          }
+        },
+        "534": {
+          "json": {
+            "value": "model.glb"
+          }
+        },
+        "535": {
+          "json": {
+            "value": "model.glb"
+          }
+        },
+        "536": {
+          "json": {
+            "value": "model.glb"
+          }
+        },
+        "537": {
+          "json": {
+            "value": "model.glb"
+          }
+        }
+      }
+    },
+    {
+      "name": "inspector::Selection",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "gizmo": {
+            "type": "integer",
+            "serializationType": "int32"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "513": {
+          "json": {
+            "gizmo": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "inspector::Scene",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "layout": {
+            "type": "object",
+            "properties": {
+              "base": {
+                "type": "object",
+                "properties": {
+                  "x": {
+                    "type": "integer",
+                    "serializationType": "int32"
+                  },
+                  "y": {
+                    "type": "integer",
+                    "serializationType": "int32"
+                  }
+                },
+                "serializationType": "map"
+              },
+              "parcels": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "x": {
+                      "type": "integer",
+                      "serializationType": "int32"
+                    },
+                    "y": {
+                      "type": "integer",
+                      "serializationType": "int32"
+                    }
+                  },
+                  "serializationType": "map"
+                },
+                "serializationType": "array"
+              }
+            },
+            "serializationType": "map"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "0": {
+          "json": {
+            "layout": {
+              "base": {
+                "x": 0,
+                "y": 0
+              },
+              "parcels": [
+                {
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "x": 0,
+                  "y": 1
+                },
+                {
+                  "x": 0,
+                  "y": 2
+                },
+                {
+                  "x": 0,
+                  "y": 3
+                },
+                {
+                  "x": 0,
+                  "y": 4
+                },
+                {
+                  "x": 0,
+                  "y": 5
+                },
+                {
+                  "x": 0,
+                  "y": 6
+                },
+                {
+                  "x": 0,
+                  "y": 7
+                },
+                {
+                  "x": 1,
+                  "y": 0
+                },
+                {
+                  "x": 1,
+                  "y": 1
+                },
+                {
+                  "x": 1,
+                  "y": 2
+                },
+                {
+                  "x": 1,
+                  "y": 3
+                },
+                {
+                  "x": 1,
+                  "y": 4
+                },
+                {
+                  "x": 1,
+                  "y": 5
+                },
+                {
+                  "x": 1,
+                  "y": 6
+                },
+                {
+                  "x": 1,
+                  "y": 7
+                },
+                {
+                  "x": 2,
+                  "y": 0
+                },
+                {
+                  "x": 2,
+                  "y": 1
+                },
+                {
+                  "x": 2,
+                  "y": 2
+                },
+                {
+                  "x": 2,
+                  "y": 3
+                },
+                {
+                  "x": 2,
+                  "y": 4
+                },
+                {
+                  "x": 2,
+                  "y": 5
+                },
+                {
+                  "x": 2,
+                  "y": 6
+                },
+                {
+                  "x": 2,
+                  "y": 7
+                },
+                {
+                  "x": 3,
+                  "y": 0
+                },
+                {
+                  "x": 3,
+                  "y": 1
+                },
+                {
+                  "x": 3,
+                  "y": 2
+                },
+                {
+                  "x": 3,
+                  "y": 3
+                },
+                {
+                  "x": 3,
+                  "y": 4
+                },
+                {
+                  "x": 3,
+                  "y": 5
+                },
+                {
+                  "x": 3,
+                  "y": 6
+                },
+                {
+                  "x": 3,
+                  "y": 7
+                },
+                {
+                  "x": 4,
+                  "y": 0
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 2
+                },
+                {
+                  "x": 4,
+                  "y": 3
+                },
+                {
+                  "x": 4,
+                  "y": 4
+                },
+                {
+                  "x": 4,
+                  "y": 5
+                },
+                {
+                  "x": 4,
+                  "y": 6
+                },
+                {
+                  "x": 4,
+                  "y": 7
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 1
+                },
+                {
+                  "x": 5,
+                  "y": 2
+                },
+                {
+                  "x": 5,
+                  "y": 3
+                },
+                {
+                  "x": 5,
+                  "y": 4
+                },
+                {
+                  "x": 5,
+                  "y": 5
+                },
+                {
+                  "x": 5,
+                  "y": 6
+                },
+                {
+                  "x": 5,
+                  "y": 7
+                },
+                {
+                  "x": 6,
+                  "y": 0
+                },
+                {
+                  "x": 6,
+                  "y": 1
+                },
+                {
+                  "x": 6,
+                  "y": 2
+                },
+                {
+                  "x": 6,
+                  "y": 3
+                },
+                {
+                  "x": 6,
+                  "y": 4
+                },
+                {
+                  "x": 6,
+                  "y": 5
+                },
+                {
+                  "x": 6,
+                  "y": 6
+                },
+                {
+                  "x": 6,
+                  "y": 7
+                },
+                {
+                  "x": 7,
+                  "y": 0
+                },
+                {
+                  "x": 7,
+                  "y": 1
+                },
+                {
+                  "x": 7,
+                  "y": 2
+                },
+                {
+                  "x": 7,
+                  "y": 3
+                },
+                {
+                  "x": 7,
+                  "y": 4
+                },
+                {
+                  "x": 7,
+                  "y": 5
+                },
+                {
+                  "x": 7,
+                  "y": 6
+                },
+                {
+                  "x": 7,
+                  "y": 7
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "cube-id",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "map"
+      },
+      "data": {
+        "512": {
+          "json": {}
+        }
+      }
+    }
+  ]
+}
